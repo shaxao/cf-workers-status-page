@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false 
     linkable: false # allows the title to be a link, default=true 
 
-  - id: www-cloudflare-com 
+  - id: cloudflare
     name: www.cloudflare.com
     description: 'Built for anything connected to the Internet.' 
     url: 'https://www.cloudflare.com'
@@ -49,8 +49,7 @@ monitors:
     description: 'xyhelper镜像网站'    
     url: 'https://ttzi.top'   
     method: GET
-    expectStatus: 200 
-    linkable: true # allows the title to be a link, default=true   
+    expectStatus: 200  
 
   - id: coze-bot.onrender.com  
     name: coze-bot.onrender.com  
@@ -58,7 +57,6 @@ monitors:
     url: 'https://coze-bot.onrender.com' 
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: One-Api   
     name: One-Api  
@@ -66,8 +64,8 @@ monitors:
     url: 'https://one-api-3zrb.onrender.com'  
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true 
-
+    linkable: true # allows the title to be a link, default=true
+    
   - id: notion  
     name: notion 
     description: 'notion个人博客'  
