@@ -56,7 +56,7 @@ monitors:
 
   - id: One-Api   
     name: One-Api  
-    description: 'one api   
+    description: 'one api'    
     url: 'https://one-api-3zrb.onrender.com'  
     method: GET
     expectStatus: 200
