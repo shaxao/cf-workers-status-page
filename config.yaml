@@ -26,7 +26,7 @@ monitors:
 
   - id: cloudflare
     name: www.cloudflare.com
-    description: 'a test.' 
+    description: 'a test .' 
     url: 'https://www.cloudflare.com'
     method: GET
     expectStatus: 200
